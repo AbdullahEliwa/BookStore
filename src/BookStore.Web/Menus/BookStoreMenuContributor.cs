@@ -33,6 +33,16 @@ public class BookStoreMenuContributor : IMenuContributor
                 order: 0
             )
         );
+        context.Menu.Items.Insert(
+            1,
+            new ApplicationMenuItem(
+                "BookStore",
+                l["Menu:BookStore"],
+                "~/",
+                icon: "fas fa-book"
+            ).AddItem(new ApplicationMenuItem("BooksStore.Books", l["Menu:Books"], "/Books"))
+        );
+
 
         if (MultiTenancyConsts.IsEnabled)
         {

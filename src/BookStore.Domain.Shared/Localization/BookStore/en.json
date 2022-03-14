@@ -3,6 +3,17 @@
   "texts": {
     "Menu:Home": "Home",
     "Welcome": "Welcome",
-    "LongWelcomeMessage": "Welcome to the application. This is a startup project based on the ABP framework. For more information, visit abp.io."
+    "LongWelcomeMessage": "Welcome to the application. This is a startup project based on the ABP framework. For more information, visit abp.io.",
+    "BooksList": "Books List",
+    "Menu:BookStore": "Book Store",
+    "Menu:Books": "Books",
+    "PublishedDate": "Publish date",
+    "Name": "Name",
+    "Type": "Type",
+    "Price": "Price",
+    "Enum:BookType:0": "Undefined",
+    "Enum:BookType:1": "Horror",
+    "Enum:BookType:2": "Science",
+    "Enum:BookType:3": "Science Fiction"
   }
 }

@@ -1,0 +1,27 @@
+﻿@page
+@using BookStore.Localization
+@using BookStore.Web.Pages.Books
+@using Microsoft.Extensions.Localization
+
+@inject IStringLocalizer<BookStoreResource> localizer
+
+@model IndexModel
+
+
+
+<abp-card>
+    <abp-card-header>
+        <h2>@localizer["BooksList"]</h2>
+    </abp-card-header>
+
+    <abp-card-body>
+        <abp-table striped-rows="true" id="books-table">
+
+        </abp-table>
+    </abp-card-body>
+</abp-card>
+
+
+@section Scripts{
+<abp-script src="/site/book.js" />
+}

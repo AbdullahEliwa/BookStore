@@ -3,6 +3,17 @@
   "texts": {
     "Menu:Home": "الرئيسية",
     "Welcome": "مرحبا",
-    "LongWelcomeMessage": "مرحبا بكم في التطبيق. هذا مشروع بدء تشغيل يعتمد على إطار عمل ABP. لمزيد من المعلومات ، يرجى زيارة abp.io."
+    "LongWelcomeMessage": "مرحبا بكم في التطبيق. هذا مشروع بدء تشغيل يعتمد على إطار عمل ABP. لمزيد من المعلومات ، يرجى زيارة abp.io.",
+    "BooksList": "قائمة الكتب",
+    "Menu:BookStore": "متجر الكتب",
+    "Menu:Books": "كل الكتب",
+    "PublishedDate": "تاريخ النشر",
+    "Name": "الاسم",
+    "Type": "النوع",
+    "Price": "السعر",
+    "Enum:BookType:0": "غير مصنف",
+    "Enum:BookType:1": "رعب",
+    "Enum:BookType:2": "علوم",
+    "Enum:BookType:3": "خيال علمي"
   }
 }
